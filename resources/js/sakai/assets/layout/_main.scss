@@ -1,0 +1,35 @@
+.layout-main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    padding: 6rem 2rem 0 2rem;
+    transition: margin-left var(--layout-section-transition-duration);
+}
+
+.layout-main {
+    flex: 1 1 auto;
+    padding-bottom: 2rem;
+}
+
+.p-tabpanels {
+    padding: 1.125rem 0 !important;
+}
+
+.tox-tinymce {
+    border-radius: 6px !important;
+}
+
+.p-datatable-header-cell {
+    border-width: 0 0 2px 0 !important;
+}
+
+.p-datatable-header {
+    border: 0 !important;
+    padding: 0 !important;
+    margin-bottom: 10px;
+
+    > .p-inputtext {
+        width: 300px;
+    }
+}
