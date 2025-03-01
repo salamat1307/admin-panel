@@ -1,7 +1,7 @@
 <template>
     <tinymce
       v-model="editorValue"
-      api-key="97hbe3p8jnu8thbu8fcyfgws16uhvzjt7r2le0q45cqj3xnz"
+      api-key="your_api_key"
       :init="tinymceinitialize"
     />
   </template>
